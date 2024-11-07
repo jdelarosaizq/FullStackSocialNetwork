@@ -32,7 +32,7 @@ In the example response above we can count the connections by their **minimum** 
 
 
 
-**GOAL: develop a simple web application, including frontend and backend, that consumes the third party API descibed above.**
+**GOAL: develop a React/NodeJS simple web application, including frontend and backend, that consumes the third party API descibed above.**
 
 ### User Stories ###
 
