@@ -2,8 +2,6 @@
 
 A third party provider has exposed an end-point for you that retrieves a graph representation using JSON like the following:
 
-Requests:
-
 GET https://my-third-party/facebook
 
 GET https://my-third-party/twitter
