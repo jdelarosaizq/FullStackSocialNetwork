@@ -34,6 +34,19 @@ In the example response above we can count the connections by their **minimum** 
 
 **GOAL: develop a React/NodeJS simple web application, including frontend and backend, that consumes the third party API described above.**
 
+
+### Frontend ###
+Provide a simple form which allows to input required data to satisfy the user stories below. Please adjust the layout and styles of the provided application to make it responsive:
+
+* Mobile: all sections in one column, each section is 100% width
+* Tablet+: all sections in one row, each section is one third of the full width
+
+Please consider performance when implementing your components. Pay attention to wasted renders.
+Data must be stored and retrieved using a state manager of your choice.
+
+### Backend ###
+Provide a Restful http server that interact with the 3rd party and implements the necesary business logic. Please pay attention to good design practices and separation of concerns. 
+
 ### User Stories ###
 
 As a user, I want to query how many people are not connected to anyone for the given social network so I know who to propose new connections to.
