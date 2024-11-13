@@ -10,7 +10,7 @@ const SocialForm: React.FC<SocialFormProps> = ({ onUnconnectedPeopleSubmit, onSo
 
     const [person, setPerson] = useState('');
     const [networks, setNetworks] = useState('');
-    console.log("REACT_APP_API_BASE_URL:", process.env.REACT_APP_API_BASE_URL);
+    
     const handleSubmit = (e: React.FormEvent, type: 'unconnected' | 'influence') => {
         e.preventDefault();
         const networksArray = networks.split(',').map((net) => net.trim());
