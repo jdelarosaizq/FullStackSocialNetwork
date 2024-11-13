@@ -68,3 +68,7 @@ As a user, I want to query how many people are connected to a given person by 1 
 - We are looking for a solution where the candidate shows skills around application design, clean code and TDD.
 - We do not expect you to have all fully working, just some test suites that we can run using your preferred build tool.
 - We expect you to spend no more than a few hours on this task so we can discuss your prioritisation, design approach and quality aspects in the technical interview.
+
+### Before you start
+You will need your public repository to share your code. If you fork the project make sure you detach it from this one. Please do not create PRs.
+
