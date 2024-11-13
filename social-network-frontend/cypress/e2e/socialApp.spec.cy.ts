@@ -19,4 +19,15 @@ describe('Social Network Influence data', () => {
     cy.get('p').contains('Count of Unconnected people').should('exist');
   });
 
+  it('should submit the form and display social influence data', () => {
+    cy.get('input[placeholder="Enter person name"]').type('John');
+    cy.get('input[placeholder="Enter networks name"]').type('Facebook, Twitter');
+    cy.log('Clicking Check social influence button');
+    cy.get('button').contains('Check social influence').click();
+    cy.wait(200);
+    cy.contains('Social Influence').should('be.visible');
+    cy.contains('First degree connections').should('exist');
+    cy.contains('Second degree connections').should('exist');
+  });
+
 });
